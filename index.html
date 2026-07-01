@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore India - Tour & Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Explore India</h1>
+    <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <h2>Discover Amazing Places</h2>
+    <p>Your journey starts here</p>
+</section>
+
+<section id="packages">
+    <h2>Tour Packages</h2>
+    <div class="card-container">
+
+        <div class="card">
+            <img src="manali.webp">
+            <h3>Manali</h3>
+            <p>5 Days / 4 Nights</p>
+            <p>₹12,000</p>
+        </div>
+
+        <div class="card">
+            <img src="goa.jpg">
+            <h3>Goa</h3>
+            <p>4 Days / 3 Nights</p>
+            <p>₹15,000</p>
+        </div>
+
+        <div class="card">
+            <img src="jaipur.jpg">
+            <h3>Jaipur</h3>
+            <p>3 Days / 2 Nights</p>
+            <p>₹8,000</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Travel Gallery</h2>
+    <div class="gallery">
+        <img src="photo.jpg">
+        <img src="manali2.webp">
+        <img src="goa2.avif">
+        <img src="jaipur.jpg">
+    </div>
+</section>
+
+<section id="booking">
+    <h2>Book Your Trip</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="place" placeholder="Destination (Manali / Goa / Jaipur)">
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: exploreindia@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2025 Explore India | College Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
